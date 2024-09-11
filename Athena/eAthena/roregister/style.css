@@ -1,0 +1,93 @@
+body {
+	background-color: #273423; 
+	color: #FFFFFF; 
+	margin-top: 5px;
+}
+
+table,tr,td {
+	font-family: verdana, tahoma, sans-serif; 
+	font-size: 10px;
+}
+
+.reg_table {
+    width: 400px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reg_table td {
+    text-align: left;
+}
+
+td.sidebar {
+	background: url('images/side.jpg');
+}
+
+div.title {
+	font-family: verdana, tahoma, sans-serif;
+	font-size: 22px;
+	text-decoration: underline;
+	text-align: center;
+}
+
+div.offline {
+	font-size: 10px;
+	font-family: verdana, tahoma, sans-serif;
+	color: red;
+	background-color: transparent;
+}
+
+div.online {
+	font-size: 10px;
+	font-family: verdana, tahoma, sans-serif;
+	color: green;
+	background-color: transparent;
+}
+
+div.center {
+	text-align:center;
+	font-size: 10px;
+	font-family: verdana, tahoma, sans-serif;
+}
+
+div.results {
+	font-size: 13px;
+	font-family: verdana, tahoma, sans-serif;
+}
+
+input {
+	font-family: verdana, tahoma, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+center {
+	font-family: verdana, tahoma, sans-serif;
+	font-size: 10px;
+}
+
+td.inputname1 {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+td.inputname2 {
+	background-color: #CCCCFF;
+	color: #000000;
+}
+
+iframe {
+	height: 150px;
+	width: 600px;
+}
+
+a:visited {
+	color: #FFFFFF;
+	background-color: transparent;
+}
+
+a:hover {
+	font-weight: bold;
+}
+

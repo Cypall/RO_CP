@@ -1,0 +1,156 @@
+/**************************************************/
+/* EyeX ROCP | EyeX Project Active Again          */
+/* PHP/MYSQL Experts Working                      */
+/* ===========================                    */
+/* Copyright (c) 2007 by Kiryu                    */
+/* http://www.flow-impact.net                     */
+/* ===========================                    */
+/*      ____                     __   __          */
+/*     /\  _`\                  /\ \ /\ \         */
+/*     \ \ \L\_\  __  __     __ \ `\`\/'/'        */
+/*      \ \  _\L /\ \/\ \  /'__`\`\/ > <          */
+/*       \ \ \L\ \ \ \_\ \/\  __/   \/'/\`\       */
+/*        \ \____/\/`____ \ \____\  /\_\\ \_\     */
+/*         \/___/  `/___/> \/____/  \/_/ \/_/     */
+/*                    /\___/                      */
+/*                    \/__/                       */
+/* =========================                      */
+/* Project Made in Tijuana B.C Mexico.            */
+/* Copyright(c) By Kiryu                          */
+/* Please Do Not Modify The Content of This Files */
+/* If You Need Support You Can Contact Me Here:   */
+/* http://www.flow-impact.net/ [Spanish WebSite]  */
+/* or Here: http://www.jamma-ro.net/[Spanish Too] */
+/* or: ew.info@gmail.com | support/sales Email.   */
+/**************************************************/
+
+/**************************************************/
+/*  EyeX ROCP V1.0 [Still working on the System]  */
+/*  List of Features:                             */
+/**************************************************/
+
+ *  Main System:
+Administration Panel
+ - Admin Blocks
+Image to Blocks Style Added [Optional]
+Auto Add Blocks System
+Add/Delete HTML Content Blocks
+Change the Order of Blocks
+Edit Blocks
+Activate / Deactivate Blocks
+Added Link to Fix the Blocks Position [If Needed]
+ - Admin Preferences
+Site Name
+Site Slogan
+Welcome Message
+Site Language
+Site Skin
+News at Home
+Banners System [ Publicity or Vote Banners ]
+activate/deactivate banners system
+banner link target
+Server Configuration
+activate/deactivate Server Status Script
+Server IP
+Login Port
+Char Port
+Map Port
+Guilds per Page [GuildRank Page]
+Chars per Page [Player Rank]
+Homunculus per Page [Homunculus Rank]
+ - Castles Admin
+Activate/Deactivate Castles
+ - News Admin
+Add/Delete/Edit News
+
+ - Basic Site Addons
+Display the Server Status ON/OFF
+Display the Users Online
+Login Box
+
+/**** Guild Rank ****/
+Sort the Guilds by level/Exp
+Display the guild name, level, average and exp
+Display only  the Number of Guilds you defined in the Admin Preferences
+Guild Emblem (Optional)
+[ Guild Information ]
+Display  Guild Master
+Guild Level
+Guild Alliances
+Display Members of the guild
+Members with Guild Positions
+Guild Emblem
+And Guild Masters can see a Link with the GLeader Preferences
+(*)GLeader Options:
+Add/Change Guild Emblem
+Add/Change/Delete Guild Notice
+all this with links to all the guilds info and players info
+
+/**** Player Rank ****/
+Search Char Engine [ by Name for now ]
+Order the chars by TITLE a - z
+Order the chars by ZENY (display the zeny rank)
+Order the chars by BASE LEVEL (normal rank)
+Order the chars by job LEVEL (display the job lvl rank)
+Rank by jobs, Select the Class You want to show (Champion, Swordman, Etc)
+Added 100 Gifs [Job classes sprites to jobs bd girls/boys] (thx to Kikyo for the help)
+[ Player Info ]
+display class/job
+display base level / job level
+if the user is married / display the partner w/link
+saved point (prontera 123,123)
+Player Name, zeny, max HP, max SP
+if is a guild member. the guild name w/emblem
+
+/**** Homunculus Rank ****/
+display a list of the active homunculus in the server
+order by max level
+display the homunculus name
+homunculus level
+max hp, max sp
+homunculus owner w/link
+and the homunculus class
+all this w/homunculus gif evolved or not.
+
+/**** Login / Members System ****/
+trying to secure the system we are using sessions and md5 encrypt to secure passwords
+[ player info ]
+display a list of your chars with:
+class / base level / job level
+char name , zeny, max hp, max sp
+if is married / partner w/link
+if is a guild member / guild w/link
+Change Password Option w/email and password confirmation required.
+Change Email, same as the password option
+Reset look (needed)
+Reset Position
+Change Slot
+Transfer Zeny
+
+/**** CHANGES: 22 August 2007 ****/
+changed the default mysql functions to a variable ($db - $dbfetch - $dbnum )
+optimized all the sourcecode and added the sql_cls(); function (mysql_free_results and mysql_close)
+changed the validation functions (for users / is online or not)
+changed the game status (for users / for changes in the CP/RO Account)
+now the users get banned for 2 minutes when makes changes in the CP (Divorce, Reset Position, Transfer Zeny, Etc)
+
+/**** CHANGES 23 - 25 August 2007 ****/
+changed the validation functions for admins
+added the administracion mods panel
+optimized the code for new functions added
+added the char status to all ranks
+added the server information addon
+added the actual players online list
+updated the members CP / Added some images to the options
+added search box to homunculus rank
+added search box to guild rank
+added the order by options to guild rank
+added the order by options to homunculus rank
+added the actual position in the rank to all ranks
+changed the links menu at the left [ optimized to work with the new mods function ]
+now you can change the mod status / activate / deactivate
+added some error variables to error.php file
+
+/**************************************************/
+/*     EyeX Project - Active on RO CP 2007(c)     */
+/**************************************************/

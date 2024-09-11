@@ -1,0 +1,6 @@
+DM-CP 
+
+ถูกพัฒนาโดย DemonsZeed http://www.demons-design.com/
+
+ระบบ V.1 ยังไม่ค่อยมีอะไรมามากมาย ท่านสามารถแก้ไขข้อมูลภายในเว็บได้ใน Folder Demons_ini
+
